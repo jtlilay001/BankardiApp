@@ -12,7 +12,6 @@ h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* HEADER */
 .header {
     padding: 15px 0;
@@ -116,7 +115,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* MAIN CONTENT */
-
+.features__section, .operations__section{
+    text-align: center;
+}
 .section__header {
     color: #4BBB7D;
     font-size: 8px;
@@ -128,4 +129,15 @@ h1, h2, h3, h4, h5 {
 .section__description {
     font-size: 12px;
     letter-spacing: -0.5px;
+}
+
+.features__header {
+    font-size: 8px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.features__content {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 6px;
 }
